@@ -1,0 +1,15 @@
+current directory: /home/yuichi/toy_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/home/yuichi/.rbenv/versions/2.7.5/bin/ruby -I /home/yuichi/.rbenv/versions/2.7.5/lib/ruby/2.7.0 -r ./siteconf20220304-5796-1b1w8f8.rb extconf.rb
+creating Makefile
+
+current directory: /home/yuichi/toy_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/yuichi/toy_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/yuichi/toy_app/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20220304-5796-3r96yf/skiptrace/internal
